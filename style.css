@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(image/img.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.navbar ul{
+   float: right;
+   margin-right: 55px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px ;
+}
+.logo {
+   color: white;
+   font-size: 35px;
+   line-height: 80px;
+   padding: 0 25px;
+   font-weight: bold;
+}
+.item1{
+    /* position: relative; */
+    padding-left: 10px;
+}
+.item1 h1{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 180px;
+    color:white;
+    font-size: 50px;
+}
+
+.about{
+    padding: 20px;
+    font-size: 20px;
+    background-color: wheat;
+    margin: 30px;
+    border-radius: 30px;
+}
+.about h1{
+    text-align: center;
+    padding: 30px;    
+}
+.about p{
+    color:white;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 14px;
+    color: #555;
+}
+
+.project a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.contact p {
+    font-size: 16px;
+    color: #555;
+}
+  
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.contact li {
+    margin-bottom: 10px;
+}
+  
+.contact a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+  
+/* img{
+    position: static;
+    float:right;
+    width: 20em;
+    padding-right: 62px;
+    margin-top: 100px;
+} */
